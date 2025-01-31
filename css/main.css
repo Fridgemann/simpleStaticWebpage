@@ -1,1 +1,6 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background: #181A1B;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}/*# sourceMappingURL=main.css.map */
