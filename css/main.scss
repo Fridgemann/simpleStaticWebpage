@@ -1,7 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --primary-color: #FABA6F;
+}
+
 body {
     background: #181A1B;
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5em 1em;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+        a:hover {
+            font-weight: bold;
+        }
+
+        span {
+            color: var(--primary-color);
+        }
+
+        .main-nav {
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin: 0 .5em;
+                }
+            }
+        }
+    }
 }
