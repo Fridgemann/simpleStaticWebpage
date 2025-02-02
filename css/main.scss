@@ -168,5 +168,59 @@ section.articles {
             }
             
         }
+    .articles-page-select {
+        margin-bottom: 3em;
+        .pagination {
+            margin: 1em 0;
+            text-align: center;
+            .pagination-link {
+                text-decoration: none;
+                margin: 0 .5em;
+                color: #f1f6fc;
+            }
+            .pagination-link:hover {
+                background: var(--primary-color);
+                padding: .5em;
+                border-radius: .5em;
+            }
+        }
     }
+    
+    }
+
+
+}
+
+.footer {
+    margin: 1em;
+    .container {
+        font-size: 1.2em;
+        border-top: 2px solid #323638; /* Change color as needed */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+        .footer-left {
+            display: flex;
+            gap: 1em;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            font-weight: bold;
+        }
+        .ref-link {
+            color: var(--primary-color);
+        }
+        .footer-right {
+            a {
+                color: plum;
+            }
+        }
+    }
+
 }
