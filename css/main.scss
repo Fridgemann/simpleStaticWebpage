@@ -132,6 +132,41 @@ section.articles {
                 padding-top: 10px;
             }
         
-        
+        .articles-cards {
+            padding: 1em;
+            img {
+                width: 80%;
+                padding: 1em;
+                height: auto;
+                border-radius: 2em;
+            }
+            .card {
+                background: rgb(255, 254, 254);
+                border-radius: 1em;
+                padding: 1em;
+                text-align: center;
+                margin-bottom: 2em;
+                .card-content {
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.5em;
+                    }
+                    
+                    p {
+                        font-size: 1.3em;
+                        font-style: italic;
+                    }
+                }
+                .card-footer {
+                    span {
+                        color: #007af3;
+                    }
+                }
+            
+            }
+            
+        }
     }
 }

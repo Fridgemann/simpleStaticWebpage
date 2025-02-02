@@ -108,4 +108,32 @@ section.articles .container .articles-nav .articles-types a:hover {
   background: #FABA6F;
   padding: 0.5em 1em;
   border-radius: 0.5em;
+}
+section.articles .container .articles-cards {
+  padding: 1em;
+}
+section.articles .container .articles-cards img {
+  width: 80%;
+  padding: 1em;
+  height: auto;
+  border-radius: 2em;
+}
+section.articles .container .articles-cards .card {
+  background: rgb(255, 254, 254);
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+section.articles .container .articles-cards .card .card-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+section.articles .container .articles-cards .card .card-content p {
+  font-size: 1.3em;
+  font-style: italic;
+}
+section.articles .container .articles-cards .card .card-footer span {
+  color: #007af3;
 }/*# sourceMappingURL=main.css.map */
