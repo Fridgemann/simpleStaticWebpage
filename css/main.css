@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --primary-color: #FABA6F;
+  --nav-bg-color: #323638;
 }
 
 body {
-  background: #181A1B;
+  background: #496f81;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -68,4 +69,49 @@ section.intro .container .intro-text a {
   padding: 0.5em 1em;
   border-radius: 5px;
   text-decoration: none;
+}
+
+section.articles .container img {
+  width: 100%;
+  height: auto;
+}
+section.articles .container .articles-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+section.articles .container .articles-nav .view-icons {
+  width: 20%;
+  display: flex;
+  gap: 1em;
+  cursor: pointer;
+}
+section.articles .container .articles-nav .articles-types ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin: 1em 0;
+}
+section.articles .container .articles-nav .articles-types ul li {
+  margin: 0 0.5em;
+}
+section.articles .container .articles-nav .articles-types a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+section.articles .container .articles-nav .articles-types a:hover {
+  background: #FABA6F;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+}
+section.articles .container .articles-nav::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-top: 1em;
 }/*# sourceMappingURL=main.css.map */
