@@ -219,3 +219,54 @@ section.articles {
     }
 
 }
+
+
+
+
+
+@media only screen and (min-width: 1080px) {
+    .navbar {
+        font-size: 1.2em;
+    }
+    section.intro {
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 40%;
+                padding: 1em;
+            }
+            .intro-text {
+                width: 40%;
+                font-size: 1.5em;
+            }
+            margin-bottom: 1em;
+        }
+    }
+
+    section.articles {
+        .container {
+            .articles-nav {
+                .articles-types {
+                    ul {
+                        li {
+                            margin: 0 1em;
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+            }
+            .articles-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1em;
+                .card {
+                    width: 25%;
+                    border: solid 2px black;
+                }
+            }
+        }
+    }
+}

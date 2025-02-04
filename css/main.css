@@ -178,4 +178,38 @@ section.articles .container .articles-page-select .pagination .pagination-link:h
 }
 .footer .container .footer-right a {
   color: plum;
+}
+
+@media only screen and (min-width: 1080px) {
+  .navbar {
+    font-size: 1.2em;
+  }
+  section.intro .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  section.intro .container img {
+    width: 40%;
+    padding: 1em;
+  }
+  section.intro .container .intro-text {
+    width: 40%;
+    font-size: 1.5em;
+  }
+  section.articles .container .articles-nav .articles-types ul li {
+    margin: 0 1em;
+    font-size: 1.5em;
+  }
+  section.articles .container .articles-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+  section.articles .container .articles-cards .card {
+    width: 25%;
+    border: solid 2px black;
+  }
 }/*# sourceMappingURL=main.css.map */
