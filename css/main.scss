@@ -97,12 +97,7 @@ section.articles {
             justify-content: center;
             gap: 1.5em;
             margin-bottom: 1.5em;
-            .view-icons {
-                width: 20%;
-                display: flex;
-                gap: 1em;
-                cursor: pointer;
-            }
+            
             .articles-types {
                 ul {
                     display: flex;

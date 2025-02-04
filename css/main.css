@@ -83,12 +83,6 @@ section.articles .container .articles-nav {
   border-top: 2px solid #323638; /* Change color as needed */
   padding-top: 10px;
 }
-section.articles .container .articles-nav .view-icons {
-  width: 20%;
-  display: flex;
-  gap: 1em;
-  cursor: pointer;
-}
 section.articles .container .articles-nav .articles-types ul {
   display: flex;
   list-style: none;
