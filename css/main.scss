@@ -221,6 +221,22 @@ section.articles {
 }
 
 
+@media only screen and (min-width: 768px) {
+    section.articles {
+        .container {
+            .articles-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1em;
+                .card {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
 
 
 
